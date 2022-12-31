@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'df9170e4-12ed-498f-93e9-79c1e9b9bd59'
+  azureServiceConnectionId: '1465cde6-9c5d-4b95-a3bb-9dace804d9b0'
   
   # Web app name
   webAppName: 'flask-ml-service'
@@ -17,7 +17,7 @@ variables:
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'flask-ml-service'
+  environmentName: 'ai510pe01'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
